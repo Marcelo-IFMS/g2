@@ -5,7 +5,7 @@
 //const port = 3000;
  const consign = require('consign');
 consign()
-  .include('./route')
+  .include('route')
   .into(app);
 
  
