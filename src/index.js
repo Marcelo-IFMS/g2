@@ -2,14 +2,17 @@
 /*  const express = require('express');
  const app = express(); */
 const app = require('./config/server');
-/* const port = 3000;
- 
+ const port = 3000;
+ /*
 // Define your routes
  app.get('/', (req, res) => {
    res.json({ message: 'Hello from Express on Vercel!' });
  });
  */
-
+// Define your routes
+ app.get('/', (req, res) => {
+   res.json({ message: 'Hello from Express on Vercel!' });
+ });
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
