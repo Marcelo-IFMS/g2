@@ -1,0 +1,11 @@
+
+vc init express .
+
+index.ts para index.js
+
+remover tsconfig.json
+
+copiar e colar
+https://vercel.com/docs/frameworks/backend/express?language=js
+
+
